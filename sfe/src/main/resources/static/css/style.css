@@ -1,0 +1,4 @@
+@charset "UTF-8";
+.logo-lg{background:url("../img/logo.png") no-repeat;background-size:20%;margin-top:5px;}
+.logo-lg>b{margin-left:35px;font-size:18px;}
+.main-header .logo{line-height: 40px;}

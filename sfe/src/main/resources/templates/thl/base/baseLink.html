@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="dhccBaseHead(title)">
+	<base th:href=${session.ctx}+'/'>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title th:text="${title}">Title</title> 
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<!-- Pace -->
+    <link rel="stylesheet" th:href="@{/script/lib/pace-master/themes/blue/pace-theme-flash.css}">
+    <script type="text/javascript" th:src="@{/script/lib/pace-master/pace.min.js}"></script>
+	<!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" th:href="@{/script/lib/bootstrap/css/bootstrap.min.css}">
+    <!-- BootstrapTable -->
+    <link rel="stylesheet" th:href="@{/script/lib/bootstraptable/bootstrap-table.css}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" th:href="@{/ui/AdminLTE/dist/css/font-awesome.min.css}">
+    <!-- Ionicons -->
+    <link rel="stylesheet" th:href="@{/ui/AdminLTE/dist/css/ionicons.min.css}">	
+    <!-- Theme style -->
+    <link rel="stylesheet" th:href="@{/ui/AdminLTE/dist/css/AdminLTE.min.css}">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" th:href="@{/ui/AdminLTE/dist/css/skins/all-skins.min.css}">     
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script th:src="@{/script/lib/ie9/html5shiv.min.js}"></script>
+    <script th:src="@{/script/lib/ie9/respond.min.js}"></script>
+    <![endif]-->
+</head>
+<body>
+	<span th:fragment="dhccBaseScript">		
+		<!--jQuery 2.2.3 -->
+		<script th:src="@{/script/lib/jQuery/jquery-2.2.3.min.js}"></script>
+		<!--underscore -->
+		<script th:src="@{/script/lib/underscore/underscore.js}"></script>
+		<!--Bootstrap 3.3.6 -->
+		<script th:src="@{/script/lib/bootstrap/js/bootstrap.min.js}"></script>
+		<!--BootstrapTable -->
+		<script th:src="@{/script/lib/bootstraptable/bootstrap-table.js}"></script>
+		<script th:src="@{/script/lib/bootstraptable/locale/bootstrap-table-zh-CN.js}"></script>
+		<!--Slimscroll -->
+		<script th:src="@{/script/lib/slimScroll/jquery.slimscroll.min.js}"></script>
+		<!--FastClick -->
+		<script th:src="@{/script/lib/fastclick/fastclick.js}"></script>
+		<!-- AdminLTE App -->
+		<script th:src="@{/ui/AdminLTE/dist/js/app.js}"></script>
+		<!-- AdminLTE for demo purposes -->
+		<script th:src="@{/ui/AdminLTE/dist/js/demo.js}"></script>		
+	</span>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+    {
+        "id": "9000",
+        "text": "评估操作",
+        "icon": "",
+        "isHeader": true
+    },
+    {
+        "id": "8001",
+        "text": "围填海项目评估",
+        "icon": "fa fa-edit",
+        "url": "nav/projectView",
+        "targetType": "iframe-tab"
+    },
+    {
+        "id": "8000",
+        "text": "综合评估管理",
+        "icon": "",
+        "isHeader": true
+    },
+    {
+        "id": "8001",
+        "text": "评估台账",
+        "icon": "fa fa-laptop"
+    },
+    {
+        "id": "8003",
+        "text": "评估结论及建议管理",
+        "icon": "fa fa-laptop"
+    },{
+        "id": "8003",
+        "text": "评估报表",
+        "icon": "fa fa-laptop"
+    },
+    {
+        "id": "8004",
+        "text": "评估附件",
+        "icon": "fa fa-laptop"
+    },{
+        "id": "7000",
+        "text": "系统管理",
+        "icon": "",
+        "isHeader": true
+    }, {
+        "id": "7001",
+        "text": "字典管理",
+        "icon": "fa fa-feed",
+        "children": [
+            {
+                "id": "70011",
+                "text": "字典1",
+                "icon": "fa fa-circle-o",
+                "url": "ui/AdminLTE/pages/UI/buttons_iframe.html",
+                "targetType": "iframe-tab"
+            },
+            {
+                "id": "70012",
+                "text": "字典2",
+                "url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+                "targetType": "iframe-tab",
+                "icon": "fa fa-circle-o"
+            },
+            {
+                "id": "70013",
+                "text": "字典3",
+                "url": "ui/AdminLTE/pages/UI/general_iframe.html",
+                "targetType": "iframe-tab",
+                "icon": "fa fa-circle-o"
+            },
+            {
+                "id": "70014",
+                "text": "字典4",
+                "url": "ui/AdminLTE/pages/UI/modals_iframe.html",
+                "targetType": "iframe-tab",
+                "icon": "fa fa-circle-o"
+            }
+        ]
+    }
+]

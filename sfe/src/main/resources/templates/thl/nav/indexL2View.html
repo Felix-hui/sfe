@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="thl/base/baseLink :: dhccBaseHead('生态化平面设计')" />
+<body>
+	<input id="fProId" type="hidden" th:value="${fProId}">
+	<input id="fAssessmentId" type="hidden" th:value="${fAssessmentId}">
+	<input id="code" type="hidden" th:value="${code}">
+	<div class="box">
+		<div class="box-body">
+			<table id="indexL2ViewTable_e010000" class="indexL2ViewTableGroup">				
+			</table>
+			<table id="indexL2ViewTable_e020000" class="indexL2ViewTableGroup">			
+			</table>
+			<table id="indexL2ViewTable_e030000" class="indexL2ViewTableGroup">			
+			</table>
+			<table id="indexL2ViewTable_e040000" class="indexL2ViewTableGroup">			
+			</table>
+			<table id="indexL2ViewTable_e050000" class="indexL2ViewTableGroup">			
+			</table>
+			<table id="indexL2ViewTable_e060000" class="indexL2ViewTableGroup">			
+			</table>
+		</div>
+	</div>
+	<div id="toolbar">
+		<h4><span class="label label-info" th:text="|项目名称：${fProUsename} / 二级指标|"></span></h4>	
+		<button id="btnBackToIndexL1View" class="btn btn-success btn-sm ion-android-arrow-back"> 返回</button>	
+	</div>
+	<!-- baseScript use fragment -->
+	<span th:include="thl/base/baseLink :: dhccBaseScript"></span>
+	<script type="text/javascript" th:src="@{script/app/nav/indexL2View.js}"></script>
+</body>
+</html>

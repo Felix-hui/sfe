@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="thl/base/baseLink :: dhccBaseHead('生态化平面设计')" />
+<body>
+<input id="fProId" type="hidden" th:value="${fProId}">
+	<div class="box">
+		<div class="box-body">
+			<table id="indexL1ViewTable">
+
+			</table>
+		</div>
+	</div>	
+	<div id="toolbar">
+		<h4><span class="label label-info" th:text="|项目名称：${fProUsename} / 一级指标|"></span></h4>	
+		<button id="btnBackToProjectView" class="btn btn-success btn-sm ion-android-arrow-back"> 返回</button>
+		<button id="btnAddEs" class="btn btn-primary btn-sm ion-ios-calculator-outline"> 新增评估</button>	
+	</div>
+	<!-- baseScript use fragment -->
+	<span th:include="thl/base/baseLink :: dhccBaseScript"></span>
+	<script type="text/javascript" th:src="@{script/app/nav/indexL1View.js}"></script>
+</body>
+</html>

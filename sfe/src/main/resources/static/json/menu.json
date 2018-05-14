@@ -1,0 +1,244 @@
+[
+	{
+		"id": "3000",
+		"text": "项目评估",
+		"icon": "",
+		"isHeader": true
+	},
+	{
+		"id": "30000",
+		"text": "综合评估",
+		"icon": "",
+		"url": "nav/projectView",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30001",
+		"text": "生态用海情况",
+		"icon": "",
+		"url": "nav/projectView",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30002",
+		"text": "环境影响情况",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30003",
+		"text": "海域开发利用效率",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30004",
+		"text": "海域使用经济效益",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30005",
+		"text": "海域使用社会效益",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "30006",
+		"text": "管理措施实施效率",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "4000",
+		"text": "评估统计",
+		"icon": "",
+		"isHeader": true
+	},
+	{
+		"id": "40001",
+		"text": "行政区统计",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "40002",
+		"text": "年度统计",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "40003",
+		"text": "用海类型统计",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "40004",
+		"text": "估等级统计",
+		"icon": "",
+		"children" : [
+			{
+				"id": "400041",
+				"text": "综合评估分项统计",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "400042",
+				"text": "生态用海情况评估分项统计",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "400041",
+				"text": "海域使用经济效益评估分项统计",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	},
+	{
+		"id": "40005",
+		"text": "审批级别统计",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "40005",
+		"text": "项目类型统计",
+		"icon": "",
+		"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+		"targetType": "iframe-tab"
+	},
+	{
+		"id": "5000",
+		"text": "评估管理",
+		"icon": "",
+		"isHeader": true
+	},
+	{
+		"id": "50001",
+		"text": "评估单位管理",
+		"icon": "",
+		"children" : [
+			{
+				"id": "500011",
+				"text": "评估单位维护",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500012",
+				"text": "评估单位统计",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	},
+	{
+		"id": "50002",
+		"text": "评估人员管理",
+		"icon": "",
+		"children" : [
+			{
+				"id": "500021",
+				"text": "评估人员维护",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500022",
+				"text": "评估人员统计",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	},
+	{
+		"id": "50003",
+		"text": "评估模型管理",
+		"icon": "",
+		"children" : [
+			{
+				"id": "500031",
+				"text": "评估模型维护",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	},
+	{
+		"id": "50004",
+		"text": "评估资料管理",
+		"icon": "",
+		"children" : [
+			{
+				"id": "500041",
+				"text": "评估资料维护",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	},
+	{
+		"id": "50005",
+		"text": "评估字典管理",
+		"icon": "",
+		"children" : [
+			{
+				"id": "500051",
+				"text": "评估等级字典管理",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500052",
+				"text": "定性赋分字典管理",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500053",
+				"text": "平面设计方式字典管理",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500054",
+				"text": "指标填报项字典管理",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			},
+			{
+				"id": "500055",
+				"text": "指标字典管理",
+				"icon": "",
+				"url": "ui/AdminLTE/pages/UI/icons_iframe.html",
+				"targetType": "iframe-tab"
+			}
+		]
+	}
+]
